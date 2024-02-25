@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    height: 600px;
+    
+    background-image: url("back1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox{
+    height:450px;
+    width:450px;
+    background-color: rgba(240, 248, 255, 0.105);
+    backdrop-filter: blur(6px);
+    border-radius: 30px;
+    box-shadow: 0px 0px 25px black;
+    /* border:2px solid white; */
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    /* text-align: center; */
+    
+    
+   
+} 
+.loginbox h1{
+    margin-left: 150px;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    /* align-items: center; */
+   
+}
+.user:hover {
+    border:2px solid orange;
+}
+.pass:hover {
+    border:2px solid orange;
+}
+
+
+.user{
+    height:20px;
+    width:200px;
+    background-color: white;
+    border-radius: 3px;
+    display: block;
+    margin-left: 130px;
+    
+    /* text-align: center; */
+    margin-top: 100px;
+}
+
+.pass{
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 130px;
+    /* display: block; */
+}
+.page p{
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.logins{
+    background-color:greenyellow;
+    height: 20px;
+    width: 50px;
+    color: chocolate;
+    margin-top: 20px;
+    margin-left: 132px;
+    border-radius: 3px;
+    text-align: center;
+}
